@@ -1,0 +1,31 @@
+body {
+    background-color: bisque;
+ }
+h1 {
+     text-align: center;
+
+ }
+ .buttons {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./images/keyboard.jpg);
+ } 
+ 
+ .key {
+     height: 75px;
+     width:50px;
+     font-size: x-large;
+     background-color: #fff;
+ }
+ 
+ .pressed {
+    height: 70px;
+     opacity: 0.5;
+     border-color: brown;
+ }
