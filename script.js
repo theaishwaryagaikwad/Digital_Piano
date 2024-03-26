@@ -66,9 +66,9 @@ function playSound(button) {
 }
 
 // JavaScript code to change the background image
-// function changeBackgroundImage() {
-//     $(body).style.backgroundImage = "url(./images/keyboard.jpg)";
-// }
+function changeBackgroundImage() {
+   $(body).style.backgroundImage = "url(./images/keyboard.jpg)";
+ }
 
 function buttonCss(button) {
     let currentButton = $("." + button);
